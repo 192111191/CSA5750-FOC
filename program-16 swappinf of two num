@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int temp,first,second;
+	printf("enter the first number:");
+	scanf("%d",&first);
+	printf("enter the second number:");
+	scanf("%d",&second);
+	temp=first;
+	first=second;
+	second=temp;
+	printf("after swapping of first number %d:\n",first);
+	printf("after swapping of second number %d:\n",second);
+}
