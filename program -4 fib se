@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int i,n;
+	int t1=0,t2=1;
+	int a=t1+t2;
+	printf("enter the terms:");
+	scanf("%d",&n);
+	printf("fibbino series: %d %d\n",t1,t2);
+	for(i=3;i<=n;i++)
+	{
+	 printf("%d,",a);
+	 t1=t2;
+	 t2=a;
+	 a=t1+t2;
+	}
+}
